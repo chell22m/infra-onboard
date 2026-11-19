@@ -1,0 +1,9 @@
+services:
+  spin-app:
+    build: .
+    container_name: spin-nginx-app
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./kubeconfig:/root/.kube/config:ro
+

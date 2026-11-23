@@ -1,4 +1,6 @@
-#### Deliverable 1
+# OSIRIS Infra Onboarding
+
+## Deliverable 1
 
 **Task:** Setup 2 Ubuntu servers
 - 1 on a completely internal/private network
@@ -97,7 +99,7 @@ ip route
 ```
 
 
-#### Deliverable 2
+## Deliverable 2
 
 **Task:** Setup 2 docker containers
 - 1 on a completely internal/private network
@@ -177,7 +179,7 @@ curl: (7) Failed to connect to localhost port 5000 after 0 ms: Couldn't connect 
 4. flask listening on port 5000 receives request and processes.
 
 
-#### Deliverable 3
+## Deliverable 3
 
 **Task:** Setup Microk8s and an app
 - 1 microk8s service on your machine that is accessible on localhost:80
